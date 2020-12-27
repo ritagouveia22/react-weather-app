@@ -19,7 +19,7 @@ export default function SearchEngine() {
                 <input
                   type="submit"
                   value="Search"
-                  className="btn btn-secondary btn-block w-100">
+                  className="btn btn-secondary btn-block w-100 mb-2">
                 </input>
                 <button
                   type="button"

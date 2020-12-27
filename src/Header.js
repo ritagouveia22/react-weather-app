@@ -11,7 +11,7 @@ export default function Header() {
               <ul>
                 <li>
                   <small>
-                    Last updated at: Saturday Dec 27, 19:00
+                    Last updated at: Sunday Dec 27, 19:00
                   </small>
                 </li>
                 <li>

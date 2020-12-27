@@ -1,6 +1,7 @@
 import React from "react";
 import Sunrise from "./Sunrise"
 import Sunset from "./Sunset"
+import ReactAnimatedWeather from 'react-animated-weather';
 
 import "./Details.css"
 
@@ -9,8 +10,13 @@ export default function Details() {
       <div className="Details">
         <div className="row mb-5">
           <div className="col-6">
-            <i className="fas fa-cloud-sun icon"></i>
-          </div>
+            <ReactAnimatedWeather
+              icon='PARTLY_CLOUDY_DAY'
+              color='#394867'
+              size= {150}
+              animate= {true}
+              />
+              </div>
           <div className="col-6 weather-details">
             <ul>
               <li>

@@ -15,7 +15,7 @@ export default function Header() {
                   </small>
                 </li>
                 <li>
-                  "Few Clouds"
+                  <i className="fas fa-angle-double-left"></i> Few Clouds <i className="fas fa-angle-double-right"></i>
                 </li>
               </ul>
             </div>

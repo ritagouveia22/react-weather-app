@@ -1,5 +1,6 @@
 import SearchEngine from "./SearchEngine"
 import Header from "./Header"
+import Details from "./Details"
 
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
         <div className="box">
           <SearchEngine />
           <Header />
+          <Details />
         </div>
       </div>
     </div>

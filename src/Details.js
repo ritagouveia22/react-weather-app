@@ -9,11 +9,11 @@ export default function Details() {
     return(
       <div className="Details">
         <div className="row mb-5">
-          <div className="col-6">
+          <div className="col-6 mt-3">
             <ReactAnimatedWeather
               icon='PARTLY_CLOUDY_DAY'
               color='#394867'
-              size= {150}
+              size= {100}
               animate= {true}
               />
               </div>

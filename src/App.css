@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: "Segoe UI", "Cerebri Sans", "Source Code Pro", monospace;
+  color: #394867;
+  font-size: 14px;
 }
 
 .App .box {

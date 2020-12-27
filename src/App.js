@@ -1,6 +1,7 @@
 import SearchEngine from "./SearchEngine"
 import Header from "./Header"
 import Details from "./Details"
+import Forecast from "./Forecast"
 import Footer from "./Footer"
 
 import './App.css';
@@ -13,6 +14,7 @@ function App() {
           <SearchEngine />
           <Header />
           <Details />
+          <Forecast />
           <Footer />
         </div>
       </div>

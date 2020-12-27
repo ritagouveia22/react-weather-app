@@ -1,0 +1,32 @@
+.Header h1 {
+  margin-bottom: 4px;
+  color: #fff5ea;
+}
+
+.Header span .active {
+  color: #fff5ea;
+  cursor: default;
+}
+
+.Header span a {
+  text-decoration: none;
+}
+
+.Header .units {
+  font-size: 18px;
+  color: #fff5ea;
+  position: relative;
+  top: -40px;
+  line-height: 1;
+}
+
+.Header .city {
+  font-weight: 900;
+  font-size: 75px;
+}
+
+.Header .current-temperature {
+  font-size: 75px;
+  font-weight: 900;
+  color: #fff5ea;
+}

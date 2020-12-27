@@ -1,12 +1,20 @@
 .App {
-  text-align: center;
   font-family: "Segoe UI", "Cerebri Sans", "Source Code Pro", monospace;
   color: #394867;
   font-size: 14px;
 }
 
+.App ul {
+  margin: 0;
+  padding: 0;
+}
+
+.App li {
+  list-style: none;
+}
+
 .App .box {
-  max-width: 500px;
+  max-width: 600px;
   margin: 30px auto;
   border: 1px solid #fff;
   border-radius: 5px;

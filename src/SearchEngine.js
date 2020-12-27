@@ -23,7 +23,7 @@ export default function SearchEngine() {
                 </input>
                 <button
                   type="button"
-                  className="btn btn-outline-light btn-sm btn-block current-loc-btn">
+                  className="btn btn-outline-light btn-sm btn-block current-loc-btn w-100">
                   📍 Current location
                 </button>
               </div>

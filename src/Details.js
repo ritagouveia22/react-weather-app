@@ -1,4 +1,6 @@
 import React from "react";
+import Sunrise from "./Sunrise"
+import Sunset from "./Sunset"
 
 import "./Details.css"
 
@@ -18,10 +20,10 @@ export default function Details() {
                 Wind: 10km/h
               </li>
               <li>
-                Sunrise
+                <Sunrise />
               </li>
               <li>
-                Sunset
+                <Sunset />
               </li>
             </ul>
           </div>

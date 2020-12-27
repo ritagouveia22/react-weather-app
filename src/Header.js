@@ -36,8 +36,6 @@ export default function Header() {
      minutes = `0${minutes}`
     }
     setMinutes(minutes)
-
-   console.log(response.data.dt * 1000)
   }
 
   let apiKey= "05d59b97163becec12a0f8000856ca3e"
